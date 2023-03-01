@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons');
+@import '../vendors/bootstrap.scss';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fredoka One', 'cursive', sans-serif;
+    color: $dark;
+}
+
+p {
+    font-family: 'Mali', cursive;
+    color: $dark-alt;
+    font-size: 18px;
+}
